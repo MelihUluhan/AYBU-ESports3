@@ -1,0 +1,110 @@
+﻿body {
+    font-family: Tahoma;
+    background-image: url("eSports-background.jpg");
+    overflow-y: scroll;
+}
+
+h1 {
+    color: white;
+}
+
+/*The part where I edit the texts and pictures in the Header class*/
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    color: white;
+    background-color: rgba(51, 51, 51, 0.5);
+}
+
+.logo img,
+.esport img {
+    height: 120px;
+    width: 120px;
+    box-shadow: 1px 1px 15px red;
+}
+
+/*The part where the title is edited*/
+.title {
+    text-align: center;
+    font-family: 'Bradley Hand ITC';
+    font-size: large;
+}
+
+.title:hover {
+    background-color: rgba(128, 128, 128, 0.2);
+}
+
+/*The part where the navigation bar is arranged. The space between the options, 
+    the color change when they are on them, etc. section of properties*/
+nav {
+    display: flex;
+    justify-content: center;
+    font-family: 'Bradley Hand ITC';
+    background-color: rgba(51, 51, 51, 0.5);
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+nav li {
+    margin: 0 10px;
+    font-size: 16px;
+
+}
+
+nav a {
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+
+}
+
+nav a:hover {
+    background-color: rgba(128, 128, 128, 0.2);
+}
+
+/*The part where the space between each div is edited*/
+div {
+    padding: 10px;
+    margin: 10px;
+    color: black;
+    box-shadow: 1px 1px 5px #ff006e;
+}
+
+p {
+    font-size: 16px;
+    color: white;
+}
+
+/*The part there the footer are arranged*/
+footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    font-size: small;
+    color: white;
+}
+
+/*The part where social media icons are arranged*/
+.social-media-icons a {
+    text-decoration: none;
+    color: rgb(251, 136, 136);
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 20px;
+}
+
+.social-media-icons a:hover i {
+    color: rgb(255, 255, 255);
+}

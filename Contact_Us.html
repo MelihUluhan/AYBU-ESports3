@@ -1,0 +1,88 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="jquery-ui-1.13.2/jquery-ui.css">
+    <link rel="stylesheet" type="text/css" href="Contact_Us.css">
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <script src="jquery-ui-1.13.2/external/jquery/jquery.js"></script>
+    <script src="Contact_Us.js"></script>
+</head>
+
+<body>
+    <div class="header">
+        <div class="logo">
+            <a href="index.html"><img src="logo.jpg" alt="logo" /></a>
+        </div>
+        <div class="title">
+            <h1>AYBU-ESports</h1>
+        </div>
+        <div class="esport">
+            <a href="index.html"><img src="esport.jpg" alt="esport" /></a>
+        </div>
+    </div>
+    <div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Main Menu</a></li>
+                <li><a href="Join.html">Join Us</a></li>
+                <li><a href="News_Events.html">News and Events</a></li>
+                <li><a href="About_Us.html">About Us</a></li>
+                <li><a href="Contact_Us.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </div>
+    <!--   Here, I create a container form and create parts such as button, label, text area etc.    -->
+    <div class="contact-container">
+        <div>
+            <p>You can always contact us for all your questions and complaints. We will develop and get stronger
+                together.</p>
+        </div>
+        <div>
+            <form action="" method="post">
+
+                <div class="left-column">
+                    <label for="name">Name and Surname:</label><br />
+                    <input type="text" id="name" name="name" required><br />
+
+                    <label for="nickname">Nickname: (Your name in games)</label><br />
+                    <input type="text" id="student-id" name="student-id" required><br />
+
+                    <label for="email">Email:</label><br />
+                    <input type="email" id="email" name="email" placeholder="Please enter a valid email address"
+                        required><br />
+
+                    <label for="about">What topic would you like to contact us about?</label><br />
+                    <select id="about" name="about" required></select><br />
+                </div>
+                <div class="right-column">
+                    <label for="explanation">Explanation:</label><br />
+                    <textarea id="explanation" name="explanation" required></textarea><br />
+                    <input type="submit" value="Submit">
+                </div>
+
+
+            </form>
+        </div>
+    </div>
+    <div class="social-media-icons">
+        <!--The part with icons for social media platforms.-->
+        <footer>
+            Email: aybu-esports@gmail.com<br />
+            Phone: 0(507)5556677
+            <div class="social-media-icons">
+                <a href="https://www.facebook.com"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://twitter.com"><i class="fa-brands fa-twitter"></i></a>
+                <a href="https://www.instagram.com/accounts/login/"><i class="fa-brands fa-square-instagram"></i></a>
+            </div>
+            This site was designed by Melih Uluhan
+        </footer>
+    </div>
+
+</body>
+
+</html>

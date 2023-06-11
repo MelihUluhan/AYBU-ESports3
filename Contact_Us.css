@@ -1,0 +1,90 @@
+﻿/* The part where I edit the container form */
+.contact-container {
+    margin: 20px auto;
+    width: 95%;
+    padding: 20px;
+    background-color: rgba(51, 51, 51, 0.8);
+}
+
+    .contact-container p {
+        color: white;
+        font-size: 16px;
+        text-align: center;
+    }
+
+    /* The part where I edit form elements */
+    .contact-container form {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 5px;
+    }
+
+    .contact-container label {
+        color: white;
+        font-size: 16px;
+    }
+
+.contact-container input[type="text"],
+.contact-container input[type="email"],
+.contact-container textarea {
+    width: 97%;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+.contact-container textarea {
+    height: 70%;
+    resize: none;
+}
+
+    .contact-container select {
+        width: 100%;
+        padding: 8px;
+        border-radius: 5px;
+        border: 1px solid #ddd;
+        background-color: white;
+        color: #333;
+    }
+
+/* The part where I edit the Submit button */
+.contact-container input[type="submit"] {
+    background-color: forestgreen;
+    color: white;
+    padding: 5px 8px;
+    border: none;
+    font-size: 15px;
+    float:right;
+}
+
+    .contact-container input[type="submit"]:hover {
+        background-color: green;
+    }
+
+.contact-container input:invalid,
+.contact-container select:invalid,
+.contact-container textarea {
+    border: 2px solid red;
+}
+
+/* The part where I edit the footer part */
+footer {
+    background-color: rgba(51, 51, 51, 0.5);
+    color: #fff;
+    text-align: center;
+}
+
+.social-media-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+    .social-media-icons img {
+        width: 30px;
+        height: 30px;
+        margin: 0 20px;
+        box-shadow: 1px 1px 15px red;
+    }
